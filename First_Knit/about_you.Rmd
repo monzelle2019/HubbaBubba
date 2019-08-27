@@ -1,0 +1,110 @@
+---
+title: "First Knit"
+author: "Your Name"
+date: "Date, 2019"
+output: 
+  html_document:
+    number_sections: true
+    toc: true
+---
+
+### `r as.character(Sys.Date())`
+
+```{r include=FALSE,echo=FALSE}
+require(tidyverse)
+if(!require("imager")) {install.packages("imager");require("imager")}
+
+```
+
+```{r echo=FALSE,out.width='100%'}
+xx<-getwd()
+Drive_ltr <- strtrim(xx,2)
+yy <- str_glue("{Drive_ltr}\\AAA_Owner_Info\\My_photo.jpg")
+my_pict <- load.image(yy)
+plot(my_pict,axes=FALSE,main="I'm Confused")
+```
+
+# A Little Survey
+
+Here are just a few questions so I can get to know you and so you can get practice submitting an assignment in Canvas.  For each question, insert your answer underneath. Make sure each answer is at the minimum a complete sentence with correctly spelled words and correct puncuation. Half the points in this assignment depend on your picture and name being correct!!  Be sure to put your photo in the AAA_Owner_Info folder and call it My_photo.jpg after first renaming the current one to Koala.jpg . 
+
+##Where are you now?  
+What row are you in, front,middle or back?  Do you usually choose a similiar row in other classes? What is the computer number where you are sitting?  How on a scale of 1 to 10 (1=low, 10=high) How you feel about periodic seat re-assignment, say how and why. Teams, have you ever worked on one in a class setting?
+
+###my answer     
+
+I am in the front row in the first desk. I always sit in the front row in all my classes, unless the seats are full. I feel periodic seat arrangement iss definitely a big fat one on my scale. For one I could lose my front seating. Two, someone could be forced to sit in front, when they dont want to. Three it's impenges on my freedom and liberty to boycott musical chairs in math115. No I have never worked on a class setting seat reassignment.  
+   
+     
+
+
+##Others and You?   
+What name do you prefer to be called by your classmates and instructor, if your buddys call you something but you want me to call you something else - what would that be? 
+
+
+###my answer     
+I prefer to be called by my middle name but only close friends call me by my middle naqme. Therefore just call me GLEN. You can call me small valley father of many.
+  
+   
+ 
+
+
+
+
+##Aspirations?   
+What do you want to achieve in life?  What college subject do you think would be of the greatest interest to you? What degree or certificate are you trying to achieve?
+
+
+
+###my answer     
+ I want to be an appellate attorney. Political Science and and criminal law are my strong subjects. After this semester I want to capture my general ed transfer. 
+   
+ 
+
+
+
+
+##Past adventures?  
+Have you ever gone to foreign countries, if so which ones, if not Where might you go in the future?  Have you ever been in the military, if so which branch, if not which branch would you choose if you got drafted, and why?
+
+
+###my answer     
+I have not traveled outside the country except on youtube. I plan to go over the pond and to South America. Never been in the military but Airforce would be my first choice.
+
+   
+  
+
+
+
+
+##Why are you taking Math 115?  
+What grade do you need to attain in stats to not upset your future plans, What is your plan?
+
+
+
+
+###my answer     
+ To enable me to acquire my degree.I need an A++. Transfer to Law School.
+  
+   
+ 
+
+
+
+
+
+##Homework Help and Getting around?  
+On a scale of 1 to 10, where 1 is a total dummy (doesn't know a mouse from a keyboard) and 10 is a complete geek (knows computer stuff in and out) How do you rate yourself?  Do you have a computer you can use at home? If so, what kind is it (windows, Apple, Linux)? Do you have internet access at home?  
+How do you get to class? Are there issues that limit when you can be at the college?Where and when did you attend high school?  Do you currently have a job?
+
+
+
+
+###my answer   
+  
+On a scale of 1-10 I am a 2 when it comes to computer lityeracy. I havea computer to use at home. I have an HP running win10. I do have internet access. I drive to class or get dropped off. Yes I have limits to when I can be at college, three teenage daughters. I went to A school in San Jose CA called Independence. We hold two world records that were recorded in Oct. 2018. I do work three jobs.
+  
+
+
+
+
